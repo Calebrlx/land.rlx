@@ -21,12 +21,8 @@ export const HeroSection = () => {
         <h1 className="text-3xl md:text-5xl font-bold text-gray-800">
           Hello, I&#39;m <span className="text-relix-blue">Relix</span>!
         </h1>
-        <p className="mt-4 text-base md:text-xl text-gray-600">
-          advanced agents at your fingertips <br />
-          your newest hire <br />
-          autonomous integrations made easy <br />
-          AI should be intuitive <br />
-          we think AI should be both innovative and intuitive
+        <p className="mt-4 text-base md:text-xl text-gray-600 ">
+          Advanced Agents at your Fingertips <br />
         </p>
         <Link href="/get-started">
           <span className="mt-8 inline-block bg-relix-green text-white py-3 px-6 rounded-full text-sm md:text-base font-semibold shadow-lg hover:bg-relix-blue transition-colors">
@@ -39,3 +35,9 @@ export const HeroSection = () => {
 };
 
 
+// // Possible alt subtitles 
+
+// your newest hire <br />
+// autonomous integrations made easy <br />
+// AI should be intuitive <br />
+// we think AI should be both innovative and intuitive
