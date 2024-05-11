@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Relix AI",
-  description: "An AI platform.",
+  description: "An AI service provider.",
 };
 
 export default function RootLayout({

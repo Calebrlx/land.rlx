@@ -6,20 +6,26 @@ import Footer from '@/components/footer'
 import Features from '@/components/features'
 import Zigzag from '@/components/zigzag'
 
+import { HeroSection } from "@/components/hero2"
+import { FeaturesSection } from "@/components/features2"
+
 function LandingPage() {
   return (
-    <main className="h-full bg-[#111827] overflow-auto">
-      <div className="mx-auto max-w-screen-xl h-full px-5">
-        <div>
+    <main>
+    {/* <main className="h-full bg-[#111827] overflow-auto"> */}
+      {/* <div className="mx-auto max-w-screen-xl h-full px-5"> */}
+        {/* <div> */}
           <Navbar />
-          <Hero />
-          <Features />
+          <HeroSection /> 
+          {/* <Hero /> */}
+          <FeaturesSection />
+          {/* <Features /> */}
           <Zigzag />
           {/* <Testimonial /> */}
           <NewsletterSignup />
           <Footer />
-        </div>
-      </div>
+        {/* </div> */}
+      {/* </div> */}
     </main>
   );
 }

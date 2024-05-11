@@ -1,6 +1,6 @@
 export default function Features() {
     return (
-      <div className="mb-30" >
+      // <div className="mb-30" >
         <section>
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <div className="py-12 md:py-20">
@@ -95,7 +95,7 @@ export default function Features() {
             </div>
           </div>
         </section>
-      </div>
+      // </div>
     )
   }
   
