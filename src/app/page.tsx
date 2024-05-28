@@ -11,9 +11,8 @@ import { FeaturesSection } from "@/components/features2"
 
 function LandingPage() {
   return (
-    <main>
-    {/* <main className="h-full bg-[#111827] overflow-auto"> */}
-      {/* <div className="mx-auto max-w-screen-xl h-full px-5"> */}
+    <main>  {/* className="h-full bg-[#111827] overflow-auto"> */}
+      <div className="mx-auto max-w-screen-xl h-full px-5">
         {/* <div> */}
           <Navbar />
           <HeroSection /> 
@@ -25,7 +24,7 @@ function LandingPage() {
           <NewsletterSignup />
           <Footer />
         {/* </div> */}
-      {/* </div> */}
+      </div>
     </main>
   );
 }
