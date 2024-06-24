@@ -1,15 +1,5 @@
-// "use client";
-
-import { Montserrat } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
-
-// import { cn } from "@/lib/utils";
-
-const font = Montserrat({
-    weight: "600",
-    subsets: ["latin"],
-});
 
 export const Navbar = () => {
 

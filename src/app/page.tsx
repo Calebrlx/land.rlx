@@ -1,9 +1,9 @@
 // import Testimonial from "@/components/landing-testimonial";
-import { Hero } from "@/components/hero";
+// import { Hero } from "@/components/hero";
 import { Navbar } from "@/components/navbar";
 import { NewsletterSignup } from "@/components/newsletter-signup";
 import Footer from '@/components/footer'
-import Features from '@/components/features'
+// import Features from '@/components/features'
 import Zigzag from '@/components/zigzag'
 
 import { HeroSection } from "@/components/hero2"
@@ -17,10 +17,11 @@ function LandingPage() {
           <Navbar />
           <HeroSection /> 
           {/* <Hero /> */}
-          <FeaturesSection />
           {/* <Features /> */}
-          <Zigzag />
           {/* <Testimonial /> */}
+          <Zigzag />
+          <FeaturesSection />
+          
           <NewsletterSignup />
           <Footer />
         {/* </div> */}
