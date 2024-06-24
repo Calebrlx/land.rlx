@@ -1,32 +1,3 @@
-// import Link from "next/link";
-
-// export const Hero = () => {
-//     return (
-//         <div className="text-white font-bold py-36 text-center space-y-5 mb-20">
-//             <div className="heading-lg space-y-5">
-//                 <h1>The Best AI Tool for</h1>
-//                 <div className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600">
-//                     {/* If you uncomment the TypewriterComponent, ensure it uses the global styles too */}
-//                     Chatbot.
-//                 </div>
-//             </div>
-//             <div className="subheading md:text-xl">Boost your creativity with a touch of AI.</div>
-//             <div>
-//                 <Link href="https://app.relix.ai">
-//                     <button className="btn-gradient md:text-lg p-4 md:p-6 rounded-full">
-//                         Start Generating For Free
-//                     </button>
-//                 </Link>
-//             </div>
-//             <div className="subheading">No credit card required. Cancel anytime.</div>
-//         </div>
-//     );
-// };
-
-
-
-
-
 import Link from "next/link";
 // import TypewriterComponent from "typewriter-effect";
 
@@ -59,3 +30,34 @@ export const Hero = () => {
         </div>
     );
 };
+
+
+
+// import Link from "next/link";
+
+// export const Hero = () => {
+//     return (
+//         <div className="text-white font-bold py-36 text-center space-y-5 mb-20">
+//             <div className="heading-lg space-y-5">
+//                 <h1>The Best AI Tool for</h1>
+//                 <div className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600">
+//                     {/* If you uncomment the TypewriterComponent, ensure it uses the global styles too */}
+//                     Chatbot.
+//                 </div>
+//             </div>
+//             <div className="subheading md:text-xl">Boost your creativity with a touch of AI.</div>
+//             <div>
+//                 <Link href="https://app.relix.ai">
+//                     <button className="btn-gradient md:text-lg p-4 md:p-6 rounded-full">
+//                         Start Generating For Free
+//                     </button>
+//                 </Link>
+//             </div>
+//             <div className="subheading">No credit card required. Cancel anytime.</div>
+//         </div>
+//     );
+// };
+
+
+
+
