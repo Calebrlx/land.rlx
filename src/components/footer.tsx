@@ -23,12 +23,12 @@ export default function Footer() {
                 </Link>
               </div>
               <div className="text-sm text-gray-600">
-                <a href="#0" className="text-gray-400 hover:text-gray-100 hover:underline transition duration-150 ease-in-out">Terms</a> · <a href="#0" className="text-gray-400 hover:text-gray-100 hover:underline transition duration-150 ease-in-out">Privacy Policy</a>
+                <a href="/terms-of-service" className="text-gray-400 hover:text-gray-100 hover:underline transition duration-150 ease-in-out">Terms</a> · <a href="/privacy-policy" className="text-gray-400 hover:text-gray-100 hover:underline transition duration-150 ease-in-out">Privacy Policy</a>
               </div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
-            <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-2 gap-8">
+            <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-3 gap-8">
 
               {/* 2nd block */}
               {/* <div className="text-sm">
@@ -85,7 +85,7 @@ export default function Footer() {
                     <Link href="/services" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Blog</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/careers" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Careers</Link>
+                    <Link href="/about" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Careers</Link>
                 </li>
                 </ul>
               </div>
