@@ -25,7 +25,7 @@ export default function Zigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-green-500 mb-2">AI Like Never Before!</div>
+                  <div className="font-architects-daughter text-xl text-relix-blue mb-2">AI Like Never Before!</div>
                   <h3 className="text-2xl text-white font-extrabold mb-3">Designed for the Modern User</h3>
                   <p className="text-xl text-gray-400 mb-4">Engage with our state-of-the-art chatbot, designed to provide you with instant responses and a seamless experience.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
@@ -61,7 +61,7 @@ export default function Zigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  <div className="font-architects-daughter text-xl text-green-500 mb-2">Chat Dynamics</div>
+                  <div className="font-architects-daughter text-xl text-relix-blue mb-2">Chat Dynamics</div>
                   <h3 className="text-2xl text-white font-extrabold mb-3">Where Speed Meets Simplicity</h3>
                   <p className="text-xl text-gray-400 mb-4">Dive into a world of seamless chat design, where instant access meets efficient problem resolution.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
@@ -97,7 +97,7 @@ export default function Zigzag() {
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-green-500 mb-2">Unlimited Memory, Unlimited Potential</div>
+                  <div className="font-architects-daughter text-xl text-relix-blue mb-2">Unlimited Memory, Unlimited Potential</div>
                   <h3 className="text-2xl text-white font-extrabold mb-3">Harness the Power of Vectors</h3>
                   <p className="text-xl text-gray-400 mb-4">Discover unparalleled data storage and retrieval, all powered by our advanced vector database technology.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
