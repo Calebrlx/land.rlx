@@ -20,7 +20,7 @@ export const Hero = () => {
             </div>
             <div className="text-sm md:text-xl font-light text-zinc-400">Boost your creativity with a touch of AI.</div>
             <div>
-                <Link href="https://app.relix.ai">
+                <Link href="https://app.formbricks.com/s/clxxi6w3100ohs8co8bwj1lkb">
                     <button className="bg-gradient-to-r from-green-500 via-purple-500 to-blue-500 text-white border-0 md:textlg p-4 md:p-6 rounded-full font-semibold h-10 px-4 py-2 inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50">
                         Start Generating For Free
                     </button>

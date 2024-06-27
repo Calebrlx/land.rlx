@@ -22,6 +22,7 @@ const ContactUs = () => {
     e.preventDefault();
 
     // This URL is the action URL of the Google Form
+    // https://app.formbricks.com/s/clxxi6w3100ohs8co8bwj1lkb
     const formAction = 'YOUR_GOOGLE_FORM_ACTION_URL_HERE';
     const formDataToSend = new FormData();
 
