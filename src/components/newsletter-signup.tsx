@@ -6,7 +6,7 @@ export const NewsletterSignup = () => {
   const [email, setEmail] = useState<string>('');
 
   return (
-    <div className="relative p-4 rounded-lg bg-gradient-to-r from-blue-600 via-purple-600 to-red-600">
+    <div className="relative p-4 rounded-lg bg-gradient-to-r from-blue-600 via-purple-600 to-red-600 my-12">
       <div className="flex flex-col items-center justify-center">
         <h2 className="text-2xl font-bold text-white mb-2">
           Don&apos;t Be Left Out! 🚀
