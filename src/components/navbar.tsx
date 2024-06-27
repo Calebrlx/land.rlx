@@ -12,7 +12,7 @@ export const Navbar = () => {
                 {/* <h1 className="text-2xl font-bold text-white">Relix</h1> */}
             </Link>
             <div className="flex items-center gap-x-2">
-                <Link href="https://app.formbricks.com/s/clxxi6w3100ohs8co8bwj1lkb">
+                <Link href="/contact">
                     <button className="border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 rounded-full inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50">
                         Get Started
                     </button>
