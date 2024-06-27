@@ -60,7 +60,7 @@ const ContactUs = () => {
         <section className="p-6 bg-gray-800 rounded-lg shadow-md">
           <h1 className="text-4xl font-bold text-green-400 mt-8 mb-4">Contact Us</h1>
           <p className="mb-4 text-lg">
-            We're here to help! Feel free to reach out with any questions or comments.
+            We&apos;re here to help! Feel free to reach out with any questions or comments.
             For additional inquiries, you can also email us directly at <a href="mailto:caleb@relix.ai" className="text-green-400">caleb@relix.ai</a>.
           </p>
           {!submitted ? (
