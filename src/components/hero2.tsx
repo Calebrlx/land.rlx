@@ -21,7 +21,7 @@ export const HeroSection = () => {
         <div className="absolute inset-0 bg-black bg-opacity-50 rounded-lg"></div>
         <div className="relative p-6">
         <h1 className="text-3xl md:text-5xl font-bold text-white">
-            Welcome to <span className="text-relix-blue">Relix</span>
+            Welcome to <span className="text-relix-green">Relix</span>
           </h1>
           <p className="mt-4 text-base md:text-xl text-gray-200 leading-relaxed">
             Advanced Agents at your Fingertips
