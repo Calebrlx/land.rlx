@@ -9,7 +9,7 @@ export const HeroSection = () => {
         <div className="absolute -inset-1 bg-gradient-to-r from-relix-green to-relix-blue rounded-full blur-xl opacity-75"></div>
         <Image
           className="relative rounded-full"
-          src="/brain.png"
+          src="/network.svg"
           width={405}
           height={405}
           alt="Features 01"
