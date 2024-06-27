@@ -8,6 +8,7 @@ import Zigzag from '@/components/zigzag'
 
 import { HeroSection } from "@/components/hero2"
 import { FeaturesSection } from "@/components/features2"
+import CTA from "@/components/cta"
 
 function LandingPage() {
   return (
@@ -20,6 +21,7 @@ function LandingPage() {
           {/* <Features /> */}
           {/* <Testimonial /> */}
           <Zigzag />
+          <CTA />
           <FeaturesSection />
           
           <NewsletterSignup />
