@@ -26,7 +26,7 @@ export const HeroSection = () => {
           <p className="mt-4 text-base md:text-xl text-gray-200 leading-relaxed">
             Advanced Agents at your Fingertips
           </p>
-          <Link href="/contact">
+          <Link href="https://app.formbricks.com/s/clxxi6w3100ohs8co8bwj1lkb">
             <a className="mt-8 inline-block bg-relix-green text-white py-3 px-6 rounded-full text-sm md:text-base font-semibold shadow-lg hover:bg-relix-blue transition-colors">
               Get Started
             </a>
