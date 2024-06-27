@@ -21,24 +21,24 @@ export const FeaturesSection = () => {
       description: 'We leverage insights from our research division to bring you the latest developments in AI technology.',
       expandedText: 'Stay ahead of the curve with groundbreaking AI innovations. Our research team works tirelessly to discover and integrate the newest technologies into our products.'
     },
-    {
-      id: 4,
-      title: 'Advanced Knowledge Management',
-      description: 'Our advanced knowledge management systems provide you with the best possible experience.',
-      expandedText: 'Organize, access, and utilize information more efficiently with our sophisticated knowledge management solutions, tailored to your business needs.'
-    },
-    {
-      id: 5,
-      title: 'Comprehensive AI Integration',
-      description: 'From data pipelines to LLM applications, our research department collaborates directly with your team.',
-      expandedText: 'We help integrate complex AI systems into your business processes, ensuring seamless operation and maximum benefit.'
-    },
-    {
-      id: 6,
-      title: 'Security and Reliability',
-      description: 'Secure data storage systems protect your information while ensuring accessibility.',
-      expandedText: 'Our commitment to security means your data is always safe with us, backed by the latest in encryption and compliance standards.'
-    }
+    // {
+    //   id: 4,
+    //   title: 'Advanced Knowledge Management',
+    //   description: 'Our advanced knowledge management systems provide you with the best possible experience.',
+    //   expandedText: 'Organize, access, and utilize information more efficiently with our sophisticated knowledge management solutions, tailored to your business needs.'
+    // },
+    // {
+    //   id: 5,
+    //   title: 'Comprehensive AI Integration',
+    //   description: 'From data pipelines to LLM applications, our research department collaborates directly with your team.',
+    //   expandedText: 'We help integrate complex AI systems into your business processes, ensuring seamless operation and maximum benefit.'
+    // },
+    // {
+    //   id: 6,
+    //   title: 'Security and Reliability',
+    //   description: 'Secure data storage systems protect your information while ensuring accessibility.',
+    //   expandedText: 'Our commitment to security means your data is always safe with us, backed by the latest in encryption and compliance standards.'
+    // }
   ]);
 
   return (
