@@ -27,9 +27,9 @@ export const HeroSection = () => {
             Advanced Agents at your Fingertips
           </p>
           <Link href="/contact">
-            <a className="mt-8 inline-block bg-relix-green text-white py-3 px-6 rounded-full text-sm md:text-base font-semibold shadow-lg hover:bg-relix-blue transition-colors">
+            <p className="mt-8 inline-block bg-relix-green text-white py-3 px-6 rounded-full text-sm md:text-base font-semibold shadow-lg hover:bg-relix-blue transition-colors">
               Get Started
-            </a>
+            </p>
           </Link>
         </div>
       </div>
