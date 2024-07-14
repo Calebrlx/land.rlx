@@ -1,11 +1,9 @@
-import Footer from '@/components/footer'
-import { Navbar } from "@/components/navbar";
+
 
 export default function Services() {
     return (
         <div className="min-h-screen bg-gray-900 text-white">
             <div className="max-w-5xl mx-auto p-4 space-y-6">
-                <Navbar />
                 <h1 className="text-4xl font-bold text-green-400 mt-8 mb-4">Our Business Solutions</h1>
                 <p className="mb-8">
                     Discover how Relix.ai leverages advanced AI technologies to transform business processes, enhance customer engagement, and optimize operational efficiency.
@@ -107,7 +105,6 @@ export default function Services() {
                         Ready to transform your business with AI? <a href="https://relix.ai/contact" className="text-blue-400">Contact us</a> today to schedule a consultation or request a demo.
                     </p>
                 </section> */}
-                <Footer />
             </div>
         </div>
     );

@@ -1,25 +1,23 @@
-import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
 export default function Footer() {
 
   return (
-    <footer>
-      <div className="py-12 md:py-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+    <footer >
+        <div className="py-2 px-16">
 
           {/* Top area: Blocks */}
-          <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-8 md:mb-12">
+          <div className="grid md:grid-cols-12 mb-4">
 
             {/* 1st block */}
-            <div className="md:col-span-4 lg:col-span-5">
-              <div className="mb-2">
+            <div className="md:col-span-4 mb-4">
+              <div className="mb-4">
                 {/* Logo */}
-                <Link href="/" className="inline-block" aria-label="Cruip">
-                  <div className="relative h-8 w-8 mr-4">
-                    <Image fill src="/logo.png" alt="Logo" />
-                  </div>
+                <Link href="/" className="inline-block mr-4" aria-label="Cruip">
+                <div className="w-8 h-8 relative">
+                    <Image src="/logo.png" alt="Logo" fill />
+                    </div>
                 </Link>
               </div>
               <div className="text-sm text-gray-600">
@@ -28,10 +26,10 @@ export default function Footer() {
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
-            <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-3 gap-8">
+            <div className="md:col-span-8 grid sm:grid-cols-3 gap-8">
 
               {/* 2nd block */}
-              {/* <div className="text-sm">
+              <div className="text-sm">
                 <h6 className="text-gray-200 font-medium mb-1">Products</h6>
                 <ul>
                   <li className="mb-1">
@@ -44,10 +42,10 @@ export default function Footer() {
                     <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Programming Forms</Link>
                   </li>
                 </ul>
-              </div> */}
+              </div>
 
               {/* 3rd block */}
-              {/* <div className="text-sm">
+              <div className="text-sm">
                 <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
                 <ul>
                   <li className="mb-1">
@@ -66,7 +64,7 @@ export default function Footer() {
                     <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Nostrud exercitation</Link>
                   </li>
                 </ul>
-              </div> */}
+              </div>
 
               {/* 4th block */}
               <div className="text-sm">
@@ -144,7 +142,6 @@ export default function Footer() {
           </div>
 
         </div>
-      </div>
     </footer>
   )
 }

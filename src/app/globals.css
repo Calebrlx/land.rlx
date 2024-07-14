@@ -39,9 +39,6 @@
 }
 
 
-main {
-  background-color: #111827;
-}
 
 /* Typography Styles */
 .heading-lg {
@@ -64,6 +61,7 @@ body {
   color: var(--color-black);
   background-color: var(--color-white);
   line-height: 1.6;
+  background-color: #111827;
 }
 
 h1, h2, h3, h4 {

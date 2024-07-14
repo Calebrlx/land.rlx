@@ -1,7 +1,5 @@
 'use client';
 
-import Footer from '@/components/footer'
-import { Navbar } from "@/components/navbar";
 import { useState } from 'react';
 
 const ContactUs = () => {
@@ -56,7 +54,6 @@ const ContactUs = () => {
   return (
     <div className="min-h-screen bg-gray-900 text-white">
       <div className="max-w-5xl mx-auto p-4 space-y-6">
-        <Navbar />
         <section className="p-6 bg-gray-800 rounded-lg shadow-md">
           <h1 className="text-4xl font-bold text-green-400 mt-8 mb-4">Contact Us</h1>
           <p className="mb-4 text-lg">
@@ -111,7 +108,6 @@ const ContactUs = () => {
             </div>
           )}
         </section>
-        <Footer />
       </div>
     </div>
   );
